@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.color{
+    color: #753d9d;
+}
+/* ====================banner_part_start===================== */
+#banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+#banner::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:  rgba(41, 0, 75, 0.444);
+    z-index: -1;
+}
+#banner .blom_item{
+    padding-top: 45px;
+}
+#banner .menubar{
+    display: flex;
+    align-items: center;
+}
+#banner .menubar ul{
+    display: flex;
+    list-style-type: none;
+}
+#banner .menubar ul li{
+
+}
+#banner .menubar ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+#banner .menubar ul li a:hover{
+    color: #753d9d;
+}
+#banner .banner_dsc{
+    color: #fff;
+    text-align: center;
+    padding: 150px 0 185px 0;
+}
+#banner .banner_dsc h1{
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 800;
+}
+
+#banner .banner_dsc p{
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0 60px 0;
+}
+#banner .banner_dsc .banner_btn a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    border: 3px solid #fff;
+    padding: 20px 65px;
+    margin-left: 20px;
+    border-radius: 5px;
+    transition: all linear 0.3s;
+}
+#banner .banner_dsc .banner_btn a:hover{
+    background-color: #753d9d;
+    border: 3px solid #753d9d;
+}
+#banner .banner_dsc .banner_btn .btn_02{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    border: 3px solid #753d9d;
+    background-color: #753d9d;
+    padding: 20px 65px;
+}
+#banner .banner_dsc .banner_btn .btn_02:hover{
+    background-color: transparent;
+    border: 3px solid #fff;
+}
+/* ====================banner_part_start===================== */
+
+/* =================WE ARE BLOOMt START================== */
+#main_item{
+    padding: 70px 0;
+    border-bottom: 5px solid #e0e0e0;
+}
+#main_item .item_1st h3{
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+}
+#main_item .item_1st .item_border{
+    border-left: 5px solid #753d9d;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+#main_item .item_1st .text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+#main_item .item_1st p{
+    font-size: 15px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 30px 0 70px 0;
+}
+#main_item .item_1st .item_1st_btn a{
+    font-size: 18px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 22px 72px;
+    border: 3px solid black;
+    border-radius: 5px;
+    transition: all linear 0.3s;
+}
+#main_item .item_1st .item_1st_btn a:hover{
+    background-color: #753d9d;
+    color: #fff;
+    border-radius: 5px;
+border: 3px solid #753d9d;
+}
+/* =================WE ARE BLOOMt END================== */
+
+/* =====================item_3rd_start===================== */
+.item_3rd{
+    padding: 65px 0;
+}
+.item_3rd .img_item .img_header{
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.item_3rd .img_item .img_header h4{
+    font-size: 21px;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.item_3rd .img_item p{
+    font-size: 15px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+/* =====================item_3rd_end===================== */
+/* ====================mobile_lab_start=============== */
+#mobile_lab{
+    background-image: url(../images/mobile_lab.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+#mobile_lab::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:  rgba(41, 0, 75, 0.444);
+    z-index: -1;
+}
+#mobile_lab h2{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-bottom: 60px;
+}
+#mobile_lab a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 20px 65px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    transition: all linear 0.3s;
+}
+#mobile_lab a:hover{
+    background-color: #753d9d;
+    border: 3px solid #753d9d;
+    border-radius: 5px;
+}
+/* ====================mobile_lab_end=============== */
+
+/* ==================SERVICES_part_start================ */
+
+#services{
+    padding: 62px 70px;
+}
+#services h3{
+    padding-bottom: 35px;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: relative;
+    padding-left: 20px;
+}
+#services h3::after{
+    position: absolute;
+    content: "";
+    top: -1px;
+    left: 0;
+    width: 5px;
+    height: 50%;
+    background-color: #753d9d;
+    border-radius: 50px;
+}
+#services .services_img{
+    padding-bottom: 30px;
+}
+#services .img_buttom .img_div{
+    width: 457px;
+    height: 338px;
+    background-color: #0d113d;
+    border-radius: 5px;
+    position: relative;
+}
+#services .img_buttom .img_div h4{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    top: 240px;
+    left: 250px;
+    position: relative;
+}
+#services .img_buttom .img_div h4::after{
+    position: absolute;
+    content: "";
+    top: 35px;
+    left: 0;
+    width: 20%;
+    height: 4px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+hr{
+    padding: 2px 0;
+    background-color: #e0e0e0;
+}
+/* ==================SERVICES_part_end================ */
+
+/* ==========Great Support System start========== */
+#great .great_img{
+    width: 570px;
+    text-align: center;
+    padding-top: 40px;
+}
+#great .great_dsc{
+    width: 570px;
+    padding-top: 70px;
+}
+#great .great_dsc h3{
+    font-size: 33px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+#great .great_dsc .para{
+    font-size: 15px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+
+#great .dream_project{
+    padding: 40px 0;
+    background-color: #753d9d;
+}
+#great .dream_project h5{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+#great .great_dsc ul p{
+    font-size: 15px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300
+}
+#great .dream_project a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    border: 2px solid #fff;
+    padding: 20px 65px;
+    border-radius: 5px;
+    transition: all linear 0.4s;
+}
+#great .dream_project a:hover{
+    background-color: #fff;
+    color: #753d9d;
+    border: 2px solid #753d9d;
+}
+/* ==========Great Support System end========== */
+
+/* ===========PORTFOLIO START================== */
+#portfolio{
+    padding: 20px 0 80px 0;
+}
+#portfolio h3{
+    padding: 50px;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: relative;
+    padding-left: 20px;
+}
+#portfolio h3::after{
+    position: absolute;
+    content: "";
+    top: 48px;
+    left: 0;
+    width: 5px;
+    height: 27%;
+    background-color: #753d9d;
+    border-radius: 50px;
+}
+#portfolio .blog_main .blog_header{
+    width: 750px;
+}
+#portfolio .blog_main .blog_item{
+    width: 360px;
+}
+#portfolio .blog_main .blog_header h6{
+    border-bottom: 2px solid rgb(237, 237, 237);
+    font-size: 18px;
+    color: #753d9d;
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px 0;
+}
+#portfolio .blog_main .blog_item .gray p{
+    border-bottom: 2px solid rgb(237, 237, 237);
+    font-size: 16px;
+    color: #b0b0b0;
+    padding: 42px 0;
+}
+#portfolio .blog_main .blog_item  p{
+    border-bottom: 2px solid rgb(237, 237, 237);
+    font-size: 16px;
+    padding: 42px 0;
+}
+/* ===========PORTFOLIO START================== */
+
+/* ===================FOOTER START================ */
+#footer{
+    background-color: #0d113d;
+}
+#footer .register_for{
+    background-color: #753d9d;
+    padding: 38px 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#footer .register_for .register_dsc h5{
+    color: #fff;
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+#footer .register_for .register_dsc p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+
+}
+#footer .register_for .register_email input{
+    width: 485px;
+    height: 50px;
+    border-radius: 5px;
+    color: #fff;
+    border: 2px solid #d3b1eb;
+    padding-left: 25px;
+    font-size: 15px;
+    background-color: #753d9d;
+    font-family: 'Montserrat', sans-serif;
+}
+#footer .register_for .register_email input::placeholder{
+    color: #d3b1eb;
+}
+#footer .register_for .register_btn input{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #753d9d;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: all linear 0.4s;
+}
+#footer .register_for .register_btn input:hover{
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #753d9d;
+    cursor: pointer;
+}
+#footer .blom_end{
+    padding: 50px 0;
+    border-bottom: 1px solid #1e224d;
+}
+#footer .blom_end .blom_item01{
+    width: 550px;
+}
+#footer .blom_end .blom_item01 p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-top: 30px;
+}
+#footer .blom_end .blom_item02{
+    margin-top: 20px;
+    border-left: 1px solid #1e224d;
+    padding: 20px;
+    height: 100px;
+}
+#footer .blom_end .blom_item02 a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-bottom: 15px;
+    transition: 0.3s;
+}
+#footer .blom_end .blom_item02 a:hover{
+    color: #753d9d;
+}
+#footer .footer_blom{
+    padding: 30px 0;
+}
+#footer .footer_blom .footer_pera p{
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+#footer .footer_blom .footer_icon a{
+    color: #fff;
+    margin-left: 30px;
+    transition: all linear 0.3s;
+}
+#footer .footer_blom .footer_icon a:hover{
+    color: #3b5998;
+}
+/* ===================FOOTER END================ */
